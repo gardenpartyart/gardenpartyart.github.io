@@ -18,11 +18,4 @@ title: Gallery
                 <a href="https://paypal.com" class="button">Purchase</a>
             </div>
             <div class="art-piece">
-                <img src="{{ '/assets/images/artwork3.jpg' | relative_url }}" alt="Digital Artwork 1">
-                <p>Digital Artwork 1</p>
-                <a href="https://paypal.com" class="button">Purchase</a>
-            </div>
-            <!-- Add more art pieces here -->
-        </div>
-    </div>
-</section>
+                <img src="{{ '/assets/images/artwork3.jpg
