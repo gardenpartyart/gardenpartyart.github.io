@@ -2,6 +2,5 @@ title: "Nude Portrait Art Portfolio"
 author: "[Your Name]"
 email: "your-email@example.com"
 description: "A portfolio for a nude portrait artist"
-baseurl: "" # The subpath of your site, leave empty for GitHub Pages
-url: "https://yourusername.github.io" # Your GitHub Pages URL
-theme: minima # Jekyll theme (optional, you can remove this if using custom layouts)
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://gardenpartyart.github.io" # Your GitHub Pages URL
