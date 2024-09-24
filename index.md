@@ -25,4 +25,6 @@ title: Home
                 <a href="https://paypal.com" class="button">Purchase</a>
             </div>
         </div>
-
+        <a href="{{ '/gallery/' | relative_url }}" class="button">View Full Gallery</a>
+    </div>
+</section>
