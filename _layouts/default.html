@@ -4,32 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        /* Inline fonts and some basic styles */
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #f4f4f4;
-            background-color: #121212;
-        }
-        h1, h2 {
-            font-family: 'Dancing Script', cursive;
-            color: #e0e0e0;
-        }
-    </style>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>{{ site.title }}</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <!-- Include the navigation bar here -->
+            {% include nav.html %}
         </div>
     </header>
 
@@ -44,3 +29,4 @@
     </footer>
 </body>
 </html>
+
