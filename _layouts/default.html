@@ -6,6 +6,18 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* Inline fonts and some basic styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #f4f4f4;
+            background-color: #121212;
+        }
+        h1, h2 {
+            font-family: 'Dancing Script', cursive;
+            color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,8 +32,7 @@
             </nav>
         </div>
     </header>
-    
-    <!-- Main content will go here -->
+
     <main>
         {{ content }}
     </main>
