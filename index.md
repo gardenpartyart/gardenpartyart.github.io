@@ -31,17 +31,6 @@ title: Home
                 <p>Portrait Study 2</p>
             </div>
             <div class="art-piece">
-                <img src="images/art3.jpg" alt="Artwork 3">
-                <p>Portrait Study 3</p>
-            </div>
-        </div>
-    </div>
-</section>
+                <img src="
 
-<section id="contact">
-    <div class="container">
-        <h2>Contact</h2>
-        <p>For commissions, collaborations, or inquiries, feel free to contact me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </div>
-</section>
 
